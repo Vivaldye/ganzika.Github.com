@@ -1,0 +1,77 @@
+/* Styles globaux */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Style de l'en-tête */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Menu de navigation */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.p1{
+  font-weight: bold;
+  color: blue
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style des sections */
+section {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Pied de page */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.project:hover .hidden {
+  display: block;
+}
+
+/* Thème clair par défaut */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #f4f4f4;
+}
